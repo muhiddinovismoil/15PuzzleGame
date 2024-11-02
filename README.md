@@ -14,6 +14,9 @@ pip install pyqt5
 after installing pyqt5 you can run this app and enjoy 😊👌🔥
 
 SIMPLE AND FUN IF YOU NEED MORE PLEASE SUPPORT MY YOUTUBE,TELEGRAM,INSTAGRAM CHANNELS
+
 LINK INSTAGRAM: [Youtube](https://youtube.com/@alghorithmmaker?si=4lNUhWQIkvKZrwNF)
+
 LINK TELEGRAM: [Instagram](https://www.instagram.com/alghorithm.maker)
+
 LINK YOUTUBE: [Telegram](t.me/codingwithismoil)
