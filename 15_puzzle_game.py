@@ -507,10 +507,19 @@ class pyatnashki(QMainWindow):
                 check = True
                 break
         if check == False:
-            print("Siz yutdingiz")
-            start_newGame = int(input('if you want to play new one please enter value just chose optino \n1.Startgame\n2.exit'))
-            if start_newGame==1:
+            msg = QMessageBox(self)
+            msg.setWindowTitle("Congratulations!")
+            msg.setFont(QFont("Calibri", 20))
+            msg.setText("You won!\nDo you want to start a new game?")
+            msg.setIcon(QMessageBox.Information)
+            msg.setStandardButtons(QMessageBox.Yes | QMessageBox.No)
+            result = msg.exec_()
+            if result == QMessageBox.Yes:
+                pyatnashki.urinish = 0
+                self.tablo2.setValue(0)
                 self.new_game()
+            else:
+                QApplication.quit()
 
 if __name__ == "__main__":
     spp = QApplication(sys.argv) 
